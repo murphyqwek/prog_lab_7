@@ -4614,3 +4614,525 @@ MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creati
 MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
 MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
 }
+2025-05-05 21:18:03 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:18:03 [AWT-EventQueue-0] INFO   - register{ login: admin; password: 123}
+2025-05-05 21:18:03 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:18:03 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:18:04 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:18:04 [AWT-EventQueue-0] WARN   - Ответ сервера содержит ошибку
+2025-05-05 21:18:04 [AWT-EventQueue-0] WARN   - ServerResponse {type: ERROR, message: Ваш логин не уникален}
+2025-05-05 21:18:14 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:18:14 [AWT-EventQueue-0] INFO   - login{ login: admin; password: admin}
+2025-05-05 21:18:14 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:18:14 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:18:14 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:18:14 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Вы успешно авторизовались!}
+2025-05-05 21:18:16 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:18:16 [AWT-EventQueue-0] INFO   - show{ login: admin; password: admin}
+2025-05-05 21:18:16 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:18:16 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:18:16 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:18:16 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:21:35 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:21:35 [AWT-EventQueue-0] INFO   - add{ login: admin; password: admin}
+2025-05-05 21:21:35 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:21:35 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:21:36 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:21:36 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Группа успешно добавлена в коллекцию}
+2025-05-05 21:21:37 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:21:37 [AWT-EventQueue-0] INFO   - show{ login: admin; password: admin}
+2025-05-05 21:21:37 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:21:37 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:21:37 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:21:37 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "19", name: "36457i", coordinates:Coordinates {x=345, y=-45}, creationDate: "Mon May 05 21:21:35 MSK 2025", number of participants: "7997", albums count: "566", genre: "BLUES", label: "Label: sales 5433.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:21:48 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:21:48 [AWT-EventQueue-0] INFO   - remove_by_id{ login: admin; password: admin}
+2025-05-05 21:21:48 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:21:48 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:21:48 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:21:48 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: MusicBand с id 19 успешно удален из коллекции}
+2025-05-05 21:21:59 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:21:59 [AWT-EventQueue-0] INFO   - show{ login: admin; password: admin}
+2025-05-05 21:21:59 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:21:59 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:00 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:22:00 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - subscribe{ login: admin; password: admin}
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: }
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - show_with_owners{ login: admin; password: admin}
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:22:12 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:13 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:22:13 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: }
+2025-05-05 21:22:13 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:18 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:22:18 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:24 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:22:24 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:29 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:22:29 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:34 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:22:34 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:39 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:22:39 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:44 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:22:44 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:49 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:22:49 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:22:55 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:22:55 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:00 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:00 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:05 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:05 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:10 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:10 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:15 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:15 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:17 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:23:17 [AWT-EventQueue-0] INFO   - login{ login: andrusha; password: isosalbibu}
+2025-05-05 21:23:17 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:23:17 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:18 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:23:18 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Вы успешно авторизовались!}
+2025-05-05 21:23:19 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:23:19 [AWT-EventQueue-0] INFO   - show{ login: andrusha; password: isosalbibu}
+2025-05-05 21:23:19 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:23:19 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:20 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:23:20 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:23:20 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:20 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:25 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:25 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:30 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:30 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:36 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:36 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:41 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:41 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:46 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:46 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:51 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:51 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:23:56 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:23:56 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:01 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:01 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:06 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:06 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:12 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:12 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:17 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:17 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:22 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:22 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:27 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:27 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:32 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:32 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:37 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:37 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:42 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:42 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:48 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:48 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - add{ login: andrusha; password: isosalbibu}
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: }
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - show_with_owners{ login: admin; password: admin}
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:24:51 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Группа успешно добавлена в коллекцию}
+2025-05-05 21:24:52 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:24:52 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: }
+2025-05-05 21:24:52 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:55 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:24:55 [AWT-EventQueue-0] INFO   - show{ login: andrusha; password: isosalbibu}
+2025-05-05 21:24:55 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:24:55 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:24:55 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:24:55 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:24:57 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:24:57 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:25:02 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:25:02 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:25:07 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:25:07 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:25:07 [AWT-EventQueue-0] INFO   - unsubscribe{ login: admin; password: admin}
+2025-05-05 21:25:07 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:25:07 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:25:07 [AWT-EventQueue-0] INFO   - unsubscribe{ login: admin; password: admin}
+2025-05-05 21:25:07 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:25:09 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:25:09 [AWT-EventQueue-0] INFO   - subscribe{ login: andrusha; password: isosalbibu}
+2025-05-05 21:25:09 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:25:09 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:25:10 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:25:10 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: }
+2025-05-05 21:25:10 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:25:10 [AWT-EventQueue-0] INFO   - show_with_owners{ login: andrusha; password: isosalbibu}
+2025-05-05 21:25:10 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:25:10 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:25:10 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:25:10 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: }
+2025-05-05 21:25:10 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:25:15 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:25:16 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:25:21 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:25:21 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:25:26 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:25:26 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:25:31 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-05 21:25:31 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:25:31 [AWT-EventQueue-0] INFO   - unsubscribe{ login: andrusha; password: isosalbibu}
+2025-05-05 21:25:31 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:25:31 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:25:31 [AWT-EventQueue-0] INFO   - unsubscribe{ login: andrusha; password: isosalbibu}
+2025-05-05 21:25:31 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:28:19 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-05 21:28:19 [AWT-EventQueue-0] INFO   - info{ login: admin; password: admin}
+2025-05-05 21:28:19 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-05 21:28:19 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-05 21:28:20 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-05 21:28:20 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Тип коллекции: CopyOnWriteArrayList
+Дата создания: Mon May 05 21:17:33 MSK 2025
+Кол-во элементов: 18}
+2025-05-06 14:41:09 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:41:09 [AWT-EventQueue-0] INFO   - register{ login: test31; password: test31}
+2025-05-06 14:41:09 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:41:09 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:41:10 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:41:10 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Вы успешно зарегистрированы}
+2025-05-06 14:41:11 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:41:11 [AWT-EventQueue-0] INFO   - show{ login: test31; password: test31}
+2025-05-06 14:41:11 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:41:11 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:41:11 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:41:11 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-06 14:41:25 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:41:25 [AWT-EventQueue-0] INFO   - sum_of_albums_count{ login: test31; password: test31}
+2025-05-06 14:41:25 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:41:25 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:41:26 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:41:26 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: 18172}
+2025-05-06 14:41:37 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:41:37 [AWT-EventQueue-0] INFO   - info{ login: test31; password: test31}
+2025-05-06 14:41:37 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:41:37 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:41:38 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:41:38 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Тип коллекции: CopyOnWriteArrayList
+Дата создания: Tue May 06 14:40:35 MSK 2025
+Кол-во элементов: 18}
+2025-05-06 14:41:50 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:41:50 [AWT-EventQueue-0] INFO   - add{ login: test31; password: test31}
+2025-05-06 14:41:50 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:41:50 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:41:50 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:41:50 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Группа успешно добавлена в коллекцию}
+2025-05-06 14:41:51 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:41:51 [AWT-EventQueue-0] INFO   - show{ login: test31; password: test31}
+2025-05-06 14:41:51 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:41:51 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:41:52 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:41:52 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}
+2025-05-06 14:42:16 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:42:16 [AWT-EventQueue-0] INFO   - subscribe{ login: test31; password: test31}
+2025-05-06 14:42:16 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:42:16 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:17 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:42:17 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: }
+2025-05-06 14:42:17 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:42:17 [AWT-EventQueue-0] INFO   - show_with_owners{ login: test31; password: test31}
+2025-05-06 14:42:17 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:42:17 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:17 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:42:17 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: }
+2025-05-06 14:42:17 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:22 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-06 14:42:23 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:28 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-06 14:42:28 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:33 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-06 14:42:33 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:38 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-06 14:42:38 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:43 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-06 14:42:43 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:48 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-06 14:42:48 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:53 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-06 14:42:53 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:42:58 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-06 14:42:59 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:43:04 [AWT-EventQueue-0] ERROR  - Timeout - сервер не отвечает
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:43:17 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:43:17 [AWT-EventQueue-0] INFO   - update{ login: test31; password: test31}
+2025-05-06 14:43:17 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:43:17 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:43:18 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:43:18 [AWT-EventQueue-0] WARN   - Ответ сервера содержит ошибку
+2025-05-06 14:43:18 [AWT-EventQueue-0] WARN   - ServerResponse {type: ERROR, message: Невозможно изменить этот элемент коллекции, так как он не принадлежит пользователю}
+2025-05-06 14:43:20 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 14:43:20 [AWT-EventQueue-0] INFO   - show{ login: test31; password: test31}
+2025-05-06 14:43:20 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 14:43:20 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 14:43:21 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 14:43:21 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}
+2025-05-06 20:42:25 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 20:42:25 [AWT-EventQueue-0] INFO   - login{ login: admin; password: admin}
+2025-05-06 20:42:25 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 20:42:25 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 20:42:25 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 20:42:25 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Вы успешно авторизовались!}
+2025-05-06 20:42:27 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 20:42:27 [AWT-EventQueue-0] INFO   - show{ login: admin; password: admin}
+2025-05-06 20:42:27 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 20:42:27 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 20:42:27 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 20:42:27 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}
+2025-05-06 20:42:59 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 20:42:59 [AWT-EventQueue-0] INFO   - add{ login: admin; password: admin}
+2025-05-06 20:42:59 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 20:42:59 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 20:43:00 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 20:43:00 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message: Группа успешно добавлена в коллекцию}
+2025-05-06 20:43:01 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 20:43:01 [AWT-EventQueue-0] INFO   - show{ login: admin; password: admin}
+2025-05-06 20:43:01 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 20:43:01 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 20:43:02 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 20:43:02 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "22", name: "234567", coordinates:Coordinates {x=75, y=123}, creationDate: "Tue May 06 20:42:59 MSK 2025", number of participants: "23", albums count: "423", genre: "POST_PUNK", label: "Label: sales 1234.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}
+2025-05-06 20:43:21 [AWT-EventQueue-0] INFO   - Отправка сообщения на сервер
+2025-05-06 20:43:21 [AWT-EventQueue-0] INFO   - show{ login: admin; password: admin}
+2025-05-06 20:43:21 [AWT-EventQueue-0] INFO   - Сообщение отправлено
+2025-05-06 20:43:21 [AWT-EventQueue-0] INFO   - Ожидание ответа от сервера...
+2025-05-06 20:43:22 [AWT-EventQueue-0] INFO   - Сообщение от сервера пришло
+2025-05-06 20:43:22 [AWT-EventQueue-0] INFO   - ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "22", name: "234567", coordinates:Coordinates {x=75, y=123}, creationDate: "Tue May 06 20:42:59 MSK 2025", number of participants: "23", albums count: "423", genre: "POST_PUNK", label: "Label: sales 1234.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}

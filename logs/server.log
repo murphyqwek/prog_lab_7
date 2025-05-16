@@ -8853,3 +8853,899 @@ MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, c
 2025-05-05 17:55:10 [main] ERROR  - Ошибка в основном цикле сервера: null
 2025-05-05 17:55:10 [main] ERROR  - Ошибка в основном цикле сервера: null
 2025-05-05 17:55:10 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-05 21:17:32 [main] INFO   - Инициализация сервера. Порт: 2720
+2025-05-05 21:17:33 [main] INFO   - Инициализация базы данных...
+2025-05-05 21:17:34 [main] INFO   - SSH соединение установлено
+2025-05-05 21:17:35 [main] INFO   - Соединение с базой данной установлено
+2025-05-05 21:17:35 [main] INFO   - Инициализация базы данных пользователей
+2025-05-05 21:17:35 [main] INFO   - Базы данны проинициализированы
+2025-05-05 21:17:35 [main] INFO   - Начало загрузки коллекции...
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:17:35 [main] INFO   - Коллекция загружена
+2025-05-05 21:17:35 [main] INFO   - Инициализация сервера...
+2025-05-05 21:17:35 [main] INFO   - Инициализация сервера завершилась успешно
+2025-05-05 21:17:35 [main] INFO   - Запуск работы сервера
+2025-05-05 21:18:03 [main] INFO   - Получены данные от /127.0.0.1:52274
+2025-05-05 21:18:03 [Thread-4] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-4
+2025-05-05 21:18:03 [Thread-4] INFO   - Пришло сообщения от /127.0.0.1:52274 в потоке Thread-4:
+register{ login: admin; password: 123}
+2025-05-05 21:18:03 [Thread-4] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:18:03 [Thread-5] INFO   - Пользователь хочет зарегистрироваться
+2025-05-05 21:18:04 [Thread-5] WARN   - Не удалось зарегистрировать нового пользователя, так как его логин уже есть в базе данных
+2025-05-05 21:18:04 [Thread-5] WARN   - Не удалось зарегистрировать пользователя, так как логин не уникален: admin
+2025-05-05 21:18:04 [Thread-6] INFO   - Сообщение отправлено /127.0.0.1:52274
+2025-05-05 21:18:14 [main] INFO   - Получены данные от /127.0.0.1:52274
+2025-05-05 21:18:14 [Thread-7] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-7
+2025-05-05 21:18:14 [Thread-7] INFO   - Пришло сообщения от /127.0.0.1:52274 в потоке Thread-7:
+login{ login: admin; password: admin}
+2025-05-05 21:18:14 [Thread-7] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:18:14 [Thread-8] INFO  LoginServerCommand - Пользователь admin хочет авторизоваться
+2025-05-05 21:18:14 [Thread-8] INFO  LoginServerCommand - Пользователь admin успешно авторизовался
+2025-05-05 21:18:14 [Thread-9] INFO   - Сообщение отправлено /127.0.0.1:52274
+2025-05-05 21:18:16 [main] INFO   - Получены данные от /127.0.0.1:52274
+2025-05-05 21:18:16 [Thread-10] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-10
+2025-05-05 21:18:16 [Thread-10] INFO   - Пришло сообщения от /127.0.0.1:52274 в потоке Thread-10:
+show{ login: admin; password: admin}
+2025-05-05 21:18:16 [Thread-10] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:18:16 [Thread-11] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-05 21:18:16 [Thread-11] INFO   - Вызов команды show
+2025-05-05 21:18:16 [Thread-11] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:18:16 [Thread-12] INFO   - Сообщение отправлено /127.0.0.1:52274
+2025-05-05 21:21:35 [main] INFO   - Получены данные от /127.0.0.1:52274
+2025-05-05 21:21:35 [Thread-13] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-13
+2025-05-05 21:21:35 [Thread-13] INFO   - Пришло сообщения от /127.0.0.1:52274 в потоке Thread-13:
+add{ login: admin; password: admin}
+2025-05-05 21:21:35 [Thread-13] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:21:35 [Thread-14] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-05 21:21:35 [Thread-14] INFO   - Вызов команды add
+2025-05-05 21:21:35 [Thread-14] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:21:35 [Thread-14] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: Группа успешно добавлена в коллекцию}
+2025-05-05 21:21:35 [Thread-15] INFO   - Сообщение отправлено /127.0.0.1:52274
+2025-05-05 21:21:37 [main] INFO   - Получены данные от /127.0.0.1:52274
+2025-05-05 21:21:37 [Thread-16] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-16
+2025-05-05 21:21:37 [Thread-16] INFO   - Пришло сообщения от /127.0.0.1:52274 в потоке Thread-16:
+show{ login: admin; password: admin}
+2025-05-05 21:21:37 [Thread-16] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:21:37 [Thread-17] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-05 21:21:37 [Thread-17] INFO   - Вызов команды show
+2025-05-05 21:21:37 [Thread-17] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "19", name: "36457i", coordinates:Coordinates {x=345, y=-45}, creationDate: "Mon May 05 21:21:35 MSK 2025", number of participants: "7997", albums count: "566", genre: "BLUES", label: "Label: sales 5433.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:21:37 [Thread-18] INFO   - Сообщение отправлено /127.0.0.1:52274
+2025-05-05 21:21:48 [main] INFO   - Получены данные от /127.0.0.1:52274
+2025-05-05 21:21:48 [Thread-19] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-19
+2025-05-05 21:21:48 [Thread-19] INFO   - Пришло сообщения от /127.0.0.1:52274 в потоке Thread-19:
+remove_by_id{ login: admin; password: admin}
+2025-05-05 21:21:48 [Thread-19] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:21:48 [Thread-20] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-05 21:21:48 [Thread-20] INFO   - Вызов команды remove_by_id
+2025-05-05 21:21:48 [Thread-20] INFO   - Из коллекции был удален элемент: MusicBand: {id: "19", name: "36457i", coordinates:Coordinates {x=345, y=-45}, creationDate: "Mon May 05 21:21:35 MSK 2025", number of participants: "7997", albums count: "566", genre: "BLUES", label: "Label: sales 5433.0"}
+2025-05-05 21:21:48 [Thread-20] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: MusicBand с id 19 успешно удален из коллекции}
+2025-05-05 21:21:48 [Thread-21] INFO   - Сообщение отправлено /127.0.0.1:52274
+2025-05-05 21:21:59 [main] INFO   - Получены данные от /127.0.0.1:52274
+2025-05-05 21:21:59 [Thread-22] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-22
+2025-05-05 21:21:59 [Thread-22] INFO   - Пришло сообщения от /127.0.0.1:52274 в потоке Thread-22:
+show{ login: admin; password: admin}
+2025-05-05 21:21:59 [Thread-22] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:21:59 [Thread-23] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-05 21:21:59 [Thread-23] INFO   - Вызов команды show
+2025-05-05 21:21:59 [Thread-23] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:21:59 [Thread-24] INFO   - Сообщение отправлено /127.0.0.1:52274
+2025-05-05 21:22:12 [main] INFO   - Получены данные от /127.0.0.1:65029
+2025-05-05 21:22:12 [Thread-25] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-25
+2025-05-05 21:22:12 [Thread-25] INFO   - Пришло сообщения от /127.0.0.1:65029 в потоке Thread-25:
+subscribe{ login: admin; password: admin}
+2025-05-05 21:22:12 [Thread-25] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:22:12 [Thread-27] INFO   - Сообщение отправлено /127.0.0.1:65029
+2025-05-05 21:22:12 [main] INFO   - Получены данные от /127.0.0.1:65029
+2025-05-05 21:22:12 [Thread-28] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-28
+2025-05-05 21:22:12 [Thread-28] INFO   - Пришло сообщения от /127.0.0.1:65029 в потоке Thread-28:
+show_with_owners{ login: admin; password: admin}
+2025-05-05 21:22:12 [Thread-28] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:22:12 [Thread-29] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-05 21:22:12 [Thread-29] INFO   - Вызов команды show_with_owners
+2025-05-05 21:22:12 [Thread-29] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: }
+2025-05-05 21:22:12 [Thread-30] INFO   - Сообщение отправлено /127.0.0.1:65029
+2025-05-05 21:23:17 [main] INFO   - Получены данные от /127.0.0.1:65437
+2025-05-05 21:23:17 [Thread-31] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-31
+2025-05-05 21:23:17 [Thread-31] INFO   - Пришло сообщения от /127.0.0.1:65437 в потоке Thread-31:
+login{ login: andrusha; password: isosalbibu}
+2025-05-05 21:23:17 [Thread-31] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:23:17 [Thread-32] INFO  LoginServerCommand - Пользователь andrusha хочет авторизоваться
+2025-05-05 21:23:18 [Thread-32] INFO  LoginServerCommand - Пользователь andrusha успешно авторизовался
+2025-05-05 21:23:18 [Thread-33] INFO   - Сообщение отправлено /127.0.0.1:65437
+2025-05-05 21:23:19 [main] INFO   - Получены данные от /127.0.0.1:65437
+2025-05-05 21:23:19 [Thread-34] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-34
+2025-05-05 21:23:19 [Thread-34] INFO   - Пришло сообщения от /127.0.0.1:65437 в потоке Thread-34:
+show{ login: andrusha; password: isosalbibu}
+2025-05-05 21:23:19 [Thread-34] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:23:19 [Thread-35] INFO   - Пользователь отправил запрос с логином: andrusha; паролем isosalbibu
+2025-05-05 21:23:19 [Thread-35] INFO   - Вызов команды show
+2025-05-05 21:23:19 [Thread-35] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:23:19 [Thread-36] INFO   - Сообщение отправлено /127.0.0.1:65437
+2025-05-05 21:24:51 [main] INFO   - Получены данные от /127.0.0.1:65437
+2025-05-05 21:24:51 [Thread-37] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-37
+2025-05-05 21:24:51 [Thread-37] INFO   - Пришло сообщения от /127.0.0.1:65437 в потоке Thread-37:
+add{ login: andrusha; password: isosalbibu}
+2025-05-05 21:24:51 [Thread-37] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:24:51 [Thread-38] INFO   - Пользователь отправил запрос с логином: andrusha; паролем isosalbibu
+2025-05-05 21:24:51 [Thread-38] INFO   - Вызов команды add
+2025-05-05 21:24:51 [Thread-38] INFO   - В коллекцию добавлен новый элемент
+2025-05-05 21:24:51 [Thread-38] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: Группа успешно добавлена в коллекцию}
+2025-05-05 21:24:51 [Thread-40] INFO   - Сообщение отправлено /127.0.0.1:65437
+2025-05-05 21:24:51 [Thread-39] INFO   - Сообщение отправлено /127.0.0.1:65029
+2025-05-05 21:24:51 [main] INFO   - Получены данные от /127.0.0.1:65029
+2025-05-05 21:24:51 [Thread-41] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-41
+2025-05-05 21:24:51 [Thread-41] INFO   - Пришло сообщения от /127.0.0.1:65029 в потоке Thread-41:
+show_with_owners{ login: admin; password: admin}
+2025-05-05 21:24:51 [Thread-41] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:24:51 [Thread-42] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-05 21:24:51 [Thread-42] INFO   - Вызов команды show_with_owners
+2025-05-05 21:24:51 [Thread-42] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: }
+2025-05-05 21:24:51 [Thread-43] INFO   - Сообщение отправлено /127.0.0.1:65029
+2025-05-05 21:24:55 [main] INFO   - Получены данные от /127.0.0.1:65437
+2025-05-05 21:24:55 [Thread-44] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-44
+2025-05-05 21:24:55 [Thread-44] INFO   - Пришло сообщения от /127.0.0.1:65437 в потоке Thread-44:
+show{ login: andrusha; password: isosalbibu}
+2025-05-05 21:24:55 [Thread-44] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:24:55 [Thread-45] INFO   - Пользователь отправил запрос с логином: andrusha; паролем isosalbibu
+2025-05-05 21:24:55 [Thread-45] INFO   - Вызов команды show
+2025-05-05 21:24:55 [Thread-45] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-05 21:24:55 [Thread-46] INFO   - Сообщение отправлено /127.0.0.1:65437
+2025-05-05 21:25:07 [main] INFO   - Получены данные от /127.0.0.1:65029
+2025-05-05 21:25:07 [Thread-47] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-47
+2025-05-05 21:25:07 [Thread-47] INFO   - Пришло сообщения от /127.0.0.1:65029 в потоке Thread-47:
+unsubscribe{ login: admin; password: admin}
+2025-05-05 21:25:07 [Thread-47] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:25:07 [main] INFO   - Получены данные от /127.0.0.1:65029
+2025-05-05 21:25:07 [Thread-49] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-49
+2025-05-05 21:25:07 [Thread-49] INFO   - Пришло сообщения от /127.0.0.1:65029 в потоке Thread-49:
+unsubscribe{ login: admin; password: admin}
+2025-05-05 21:25:07 [Thread-49] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:25:07 [Thread-51] INFO   - Сообщение отправлено /127.0.0.1:65029
+2025-05-05 21:25:07 [Thread-52] INFO   - Сообщение отправлено /127.0.0.1:65029
+2025-05-05 21:25:09 [main] INFO   - Получены данные от /127.0.0.1:59562
+2025-05-05 21:25:09 [Thread-53] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-53
+2025-05-05 21:25:09 [Thread-53] INFO   - Пришло сообщения от /127.0.0.1:59562 в потоке Thread-53:
+subscribe{ login: andrusha; password: isosalbibu}
+2025-05-05 21:25:09 [Thread-53] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:25:09 [Thread-55] INFO   - Сообщение отправлено /127.0.0.1:59562
+2025-05-05 21:25:10 [main] INFO   - Получены данные от /127.0.0.1:59562
+2025-05-05 21:25:10 [Thread-56] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-56
+2025-05-05 21:25:10 [Thread-56] INFO   - Пришло сообщения от /127.0.0.1:59562 в потоке Thread-56:
+show_with_owners{ login: andrusha; password: isosalbibu}
+2025-05-05 21:25:10 [Thread-56] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:25:10 [Thread-57] INFO   - Пользователь отправил запрос с логином: andrusha; паролем isosalbibu
+2025-05-05 21:25:10 [Thread-57] INFO   - Вызов команды show_with_owners
+2025-05-05 21:25:10 [Thread-57] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: }
+2025-05-05 21:25:10 [Thread-58] INFO   - Сообщение отправлено /127.0.0.1:59562
+2025-05-05 21:25:31 [main] INFO   - Получены данные от /127.0.0.1:59562
+2025-05-05 21:25:31 [Thread-59] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-59
+2025-05-05 21:25:31 [Thread-59] INFO   - Пришло сообщения от /127.0.0.1:59562 в потоке Thread-59:
+unsubscribe{ login: andrusha; password: isosalbibu}
+2025-05-05 21:25:31 [Thread-59] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:25:31 [Thread-61] INFO   - Сообщение отправлено /127.0.0.1:59562
+2025-05-05 21:25:31 [main] INFO   - Получены данные от /127.0.0.1:59562
+2025-05-05 21:25:31 [Thread-62] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-62
+2025-05-05 21:25:31 [Thread-62] INFO   - Пришло сообщения от /127.0.0.1:59562 в потоке Thread-62:
+unsubscribe{ login: andrusha; password: isosalbibu}
+2025-05-05 21:25:31 [Thread-62] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:25:31 [Thread-64] INFO   - Сообщение отправлено /127.0.0.1:59562
+2025-05-05 21:28:19 [main] INFO   - Получены данные от /127.0.0.1:52274
+2025-05-05 21:28:19 [Thread-65] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-65
+2025-05-05 21:28:19 [Thread-65] INFO   - Пришло сообщения от /127.0.0.1:52274 в потоке Thread-65:
+info{ login: admin; password: admin}
+2025-05-05 21:28:19 [Thread-65] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-05 21:28:19 [Thread-66] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-05 21:28:19 [Thread-66] INFO   - Вызов команды info
+2025-05-05 21:28:19 [Thread-66] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: Тип коллекции: CopyOnWriteArrayList
+Дата создания: Mon May 05 21:17:33 MSK 2025
+Кол-во элементов: 18}
+2025-05-05 21:28:19 [Thread-67] INFO   - Сообщение отправлено /127.0.0.1:52274
+2025-05-05 21:55:36 [pool-2-thread-1] INFO   - Обнаружен неактивный пользователь: Login: andrusha, Password: isosalbibu, InetAddress: /127.0.0.1, Last Active: 2025-05-05T18:25:10.071848500Z. Отключаем его
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [Thread-3] INFO   - Выключение сервера...
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 12:43:28 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:22:56 [main] INFO   - Инициализация сервера. Порт: 2720
+2025-05-06 14:22:56 [main] INFO   - Инициализация базы данных...
+2025-05-06 14:22:58 [main] INFO   - SSH соединение установлено
+2025-05-06 14:22:59 [main] INFO   - Соединение с базой данной установлено
+2025-05-06 14:22:59 [main] INFO   - Инициализация базы данных пользователей
+2025-05-06 14:23:00 [main] INFO   - Базы данны проинициализированы
+2025-05-06 14:23:00 [main] INFO   - Начало загрузки коллекции...
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:23:00 [main] INFO   - Коллекция загружена
+2025-05-06 14:23:00 [main] INFO   - Инициализация сервера...
+2025-05-06 14:23:00 [main] INFO   - Инициализация сервера завершилась успешно
+2025-05-06 14:23:00 [main] INFO   - Запуск работы сервера
+2025-05-06 14:24:50 [Thread-3] INFO   - Выключение сервера...
+2025-05-06 14:40:35 [main] INFO   - Инициализация сервера. Порт: 2720
+2025-05-06 14:40:35 [main] INFO   - Инициализация базы данных...
+2025-05-06 14:40:36 [main] INFO   - SSH соединение установлено
+2025-05-06 14:40:38 [main] INFO   - Соединение с базой данной установлено
+2025-05-06 14:40:38 [main] INFO   - Инициализация базы данных пользователей
+2025-05-06 14:40:38 [main] INFO   - Базы данны проинициализированы
+2025-05-06 14:40:38 [main] INFO   - Начало загрузки коллекции...
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:40:38 [main] INFO   - Коллекция загружена
+2025-05-06 14:40:38 [main] INFO   - Инициализация сервера...
+2025-05-06 14:40:38 [main] INFO   - Инициализация сервера завершилась успешно
+2025-05-06 14:40:38 [main] INFO   - Запуск работы сервера
+2025-05-06 14:41:09 [main] INFO   - Получены данные от /127.0.0.1:61644
+2025-05-06 14:41:09 [Thread-4] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-4
+2025-05-06 14:41:09 [Thread-4] INFO   - Пришло сообщения от /127.0.0.1:61644 в потоке Thread-4:
+register{ login: test31; password: test31}
+2025-05-06 14:41:09 [Thread-4] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:41:09 [Thread-5] INFO   - Пользователь хочет зарегистрироваться
+2025-05-06 14:41:10 [Thread-5] INFO   - Зарегистрирован новый пользователь:
+Login: test31
+Password: 86b6b0f5c235b127ac5a5af122d2eb34b94e81a6
+2025-05-06 14:41:10 [Thread-5] INFO   - Зарегистрирован новый пользователь:
+Login: test31
+Password: test31
+2025-05-06 14:41:10 [Thread-6] INFO   - Сообщение отправлено /127.0.0.1:61644
+2025-05-06 14:41:11 [main] INFO   - Получены данные от /127.0.0.1:61644
+2025-05-06 14:41:11 [Thread-7] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-7
+2025-05-06 14:41:11 [Thread-7] INFO   - Пришло сообщения от /127.0.0.1:61644 в потоке Thread-7:
+show{ login: test31; password: test31}
+2025-05-06 14:41:11 [Thread-7] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:41:11 [Thread-8] INFO   - Пользователь отправил запрос с логином: test31; паролем test31
+2025-05-06 14:41:11 [Thread-8] INFO   - Вызов команды show
+2025-05-06 14:41:11 [Thread-8] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+}
+2025-05-06 14:41:11 [Thread-9] INFO   - Сообщение отправлено /127.0.0.1:61644
+2025-05-06 14:41:25 [main] INFO   - Получены данные от /127.0.0.1:61644
+2025-05-06 14:41:25 [Thread-10] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-10
+2025-05-06 14:41:25 [Thread-10] INFO   - Пришло сообщения от /127.0.0.1:61644 в потоке Thread-10:
+sum_of_albums_count{ login: test31; password: test31}
+2025-05-06 14:41:25 [Thread-10] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:41:25 [Thread-11] INFO   - Пользователь отправил запрос с логином: test31; паролем test31
+2025-05-06 14:41:25 [Thread-11] INFO   - Вызов команды sum_of_albums_count
+2025-05-06 14:41:25 [Thread-11] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: 18172}
+2025-05-06 14:41:25 [Thread-12] INFO   - Сообщение отправлено /127.0.0.1:61644
+2025-05-06 14:41:37 [main] INFO   - Получены данные от /127.0.0.1:61644
+2025-05-06 14:41:37 [Thread-13] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-13
+2025-05-06 14:41:37 [Thread-13] INFO   - Пришло сообщения от /127.0.0.1:61644 в потоке Thread-13:
+info{ login: test31; password: test31}
+2025-05-06 14:41:37 [Thread-13] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:41:37 [Thread-14] INFO   - Пользователь отправил запрос с логином: test31; паролем test31
+2025-05-06 14:41:37 [Thread-14] INFO   - Вызов команды info
+2025-05-06 14:41:37 [Thread-14] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: Тип коллекции: CopyOnWriteArrayList
+Дата создания: Tue May 06 14:40:35 MSK 2025
+Кол-во элементов: 18}
+2025-05-06 14:41:37 [Thread-15] INFO   - Сообщение отправлено /127.0.0.1:61644
+2025-05-06 14:41:50 [main] INFO   - Получены данные от /127.0.0.1:61644
+2025-05-06 14:41:50 [Thread-16] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-16
+2025-05-06 14:41:50 [Thread-16] INFO   - Пришло сообщения от /127.0.0.1:61644 в потоке Thread-16:
+add{ login: test31; password: test31}
+2025-05-06 14:41:50 [Thread-16] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:41:50 [Thread-17] INFO   - Пользователь отправил запрос с логином: test31; паролем test31
+2025-05-06 14:41:50 [Thread-17] INFO   - Вызов команды add
+2025-05-06 14:41:50 [Thread-17] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 14:41:50 [Thread-17] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: Группа успешно добавлена в коллекцию}
+2025-05-06 14:41:50 [Thread-18] INFO   - Сообщение отправлено /127.0.0.1:61644
+2025-05-06 14:41:51 [main] INFO   - Получены данные от /127.0.0.1:61644
+2025-05-06 14:41:51 [Thread-19] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-19
+2025-05-06 14:41:51 [Thread-19] INFO   - Пришло сообщения от /127.0.0.1:61644 в потоке Thread-19:
+show{ login: test31; password: test31}
+2025-05-06 14:41:51 [Thread-19] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:41:51 [Thread-20] INFO   - Пользователь отправил запрос с логином: test31; паролем test31
+2025-05-06 14:41:51 [Thread-20] INFO   - Вызов команды show
+2025-05-06 14:41:51 [Thread-20] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}
+2025-05-06 14:41:52 [Thread-21] INFO   - Сообщение отправлено /127.0.0.1:61644
+2025-05-06 14:42:16 [main] INFO   - Получены данные от /127.0.0.1:52348
+2025-05-06 14:42:16 [Thread-22] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-22
+2025-05-06 14:42:16 [Thread-22] INFO   - Пришло сообщения от /127.0.0.1:52348 в потоке Thread-22:
+subscribe{ login: test31; password: test31}
+2025-05-06 14:42:16 [Thread-22] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:42:16 [Thread-24] INFO   - Сообщение отправлено /127.0.0.1:52348
+2025-05-06 14:42:17 [main] INFO   - Получены данные от /127.0.0.1:52348
+2025-05-06 14:42:17 [Thread-25] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-25
+2025-05-06 14:42:17 [Thread-25] INFO   - Пришло сообщения от /127.0.0.1:52348 в потоке Thread-25:
+show_with_owners{ login: test31; password: test31}
+2025-05-06 14:42:17 [Thread-25] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:42:17 [Thread-26] INFO   - Пользователь отправил запрос с логином: test31; паролем test31
+2025-05-06 14:42:17 [Thread-26] INFO   - Вызов команды show_with_owners
+2025-05-06 14:42:17 [Thread-26] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: }
+2025-05-06 14:42:17 [Thread-27] INFO   - Сообщение отправлено /127.0.0.1:52348
+2025-05-06 14:43:04 [main] INFO   - Получены данные от /127.0.0.1:52348
+2025-05-06 14:43:04 [Thread-28] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-28
+2025-05-06 14:43:04 [Thread-28] INFO   - Пришло сообщения от /127.0.0.1:52348 в потоке Thread-28:
+unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [Thread-28] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:43:04 [main] INFO   - Получены данные от /127.0.0.1:52348
+2025-05-06 14:43:04 [main] INFO   - Получены данные от /127.0.0.1:52348
+2025-05-06 14:43:04 [main] INFO   - Получены данные от /127.0.0.1:52348
+2025-05-06 14:43:04 [main] INFO   - Получены данные от /127.0.0.1:52348
+2025-05-06 14:43:04 [Thread-30] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-30
+2025-05-06 14:43:04 [Thread-30] INFO   - Пришло сообщения от /127.0.0.1:52348 в потоке Thread-30:
+unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [Thread-30] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:43:04 [Thread-31] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-31
+2025-05-06 14:43:04 [Thread-31] INFO   - Пришло сообщения от /127.0.0.1:52348 в потоке Thread-31:
+unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [Thread-32] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-32
+2025-05-06 14:43:04 [Thread-31] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:43:04 [Thread-32] INFO   - Пришло сообщения от /127.0.0.1:52348 в потоке Thread-32:
+unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [Thread-32] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:43:04 [Thread-33] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-33
+2025-05-06 14:43:04 [Thread-33] INFO   - Пришло сообщения от /127.0.0.1:52348 в потоке Thread-33:
+unsubscribe{ login: test31; password: test31}
+2025-05-06 14:43:04 [Thread-33] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:43:04 [Thread-40] INFO   - Сообщение отправлено /127.0.0.1:52348
+2025-05-06 14:43:04 [Thread-41] INFO   - Сообщение отправлено /127.0.0.1:52348
+2025-05-06 14:43:04 [Thread-42] INFO   - Сообщение отправлено /127.0.0.1:52348
+2025-05-06 14:43:04 [Thread-39] INFO   - Сообщение отправлено /127.0.0.1:52348
+2025-05-06 14:43:04 [Thread-38] INFO   - Сообщение отправлено /127.0.0.1:52348
+2025-05-06 14:43:17 [main] INFO   - Получены данные от /127.0.0.1:61644
+2025-05-06 14:43:17 [Thread-43] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-43
+2025-05-06 14:43:17 [Thread-43] INFO   - Пришло сообщения от /127.0.0.1:61644 в потоке Thread-43:
+update{ login: test31; password: test31}
+2025-05-06 14:43:17 [Thread-43] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:43:17 [Thread-44] INFO   - Пользователь отправил запрос с логином: test31; паролем test31
+2025-05-06 14:43:17 [Thread-44] INFO   - Вызов команды update
+2025-05-06 14:43:17 [Thread-44] WARN   - Во время обработки сообщении произошла ошибка: ServerResponse {type: ERROR, message: Невозможно изменить этот элемент коллекции, так как он не принадлежит пользователю}
+2025-05-06 14:43:17 [Thread-45] INFO   - Сообщение отправлено /127.0.0.1:61644
+2025-05-06 14:43:20 [main] INFO   - Получены данные от /127.0.0.1:61644
+2025-05-06 14:43:20 [Thread-46] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-46
+2025-05-06 14:43:20 [Thread-46] INFO   - Пришло сообщения от /127.0.0.1:61644 в потоке Thread-46:
+show{ login: test31; password: test31}
+2025-05-06 14:43:20 [Thread-46] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 14:43:20 [Thread-47] INFO   - Пользователь отправил запрос с логином: test31; паролем test31
+2025-05-06 14:43:20 [Thread-47] INFO   - Вызов команды show
+2025-05-06 14:43:20 [Thread-47] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}
+2025-05-06 14:43:20 [Thread-48] INFO   - Сообщение отправлено /127.0.0.1:61644
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [Thread-3] INFO   - Выключение сервера...
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 14:44:58 [main] ERROR  - Ошибка в основном цикле сервера: null
+2025-05-06 20:40:51 [main] INFO   - Инициализация сервера. Порт: 2720
+2025-05-06 20:40:51 [main] INFO   - Инициализация базы данных...
+2025-05-06 20:40:51 [main] ERROR  - Не удалось подключиться к базе данных или её проинициализировать:
+java.net.UnknownHostException: se.ifmo.ru
+2025-05-06 20:40:51 [main] ERROR  - Аварийное отключение
+2025-05-06 20:41:53 [main] INFO   - Инициализация сервера. Порт: 2720
+2025-05-06 20:41:53 [main] INFO   - Инициализация базы данных...
+2025-05-06 20:41:54 [main] INFO   - SSH соединение установлено
+2025-05-06 20:41:56 [main] INFO   - Соединение с базой данной установлено
+2025-05-06 20:41:56 [main] INFO   - Инициализация базы данных пользователей
+2025-05-06 20:41:56 [main] INFO   - Базы данны проинициализированы
+2025-05-06 20:41:56 [main] INFO   - Начало загрузки коллекции...
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:41:56 [main] INFO   - Коллекция загружена
+2025-05-06 20:41:56 [main] INFO   - Инициализация сервера...
+2025-05-06 20:41:56 [main] INFO   - Инициализация сервера завершилась успешно
+2025-05-06 20:41:56 [main] INFO   - Запуск работы сервера
+2025-05-06 20:42:25 [main] INFO   - Получены данные от /127.0.0.1:56994
+2025-05-06 20:42:25 [Thread-4] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-4
+2025-05-06 20:42:25 [Thread-4] INFO   - Пришло сообщения от /127.0.0.1:56994 в потоке Thread-4:
+login{ login: admin; password: admin}
+2025-05-06 20:42:25 [Thread-4] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 20:42:25 [Thread-5] INFO  LoginServerCommand - Пользователь admin хочет авторизоваться
+2025-05-06 20:42:25 [Thread-5] INFO  LoginServerCommand - Пользователь admin успешно авторизовался
+2025-05-06 20:42:25 [Thread-6] INFO   - Сообщение отправлено /127.0.0.1:56994
+2025-05-06 20:42:27 [main] INFO   - Получены данные от /127.0.0.1:56994
+2025-05-06 20:42:27 [Thread-7] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-7
+2025-05-06 20:42:27 [Thread-7] INFO   - Пришло сообщения от /127.0.0.1:56994 в потоке Thread-7:
+show{ login: admin; password: admin}
+2025-05-06 20:42:27 [Thread-7] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 20:42:27 [Thread-8] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-06 20:42:27 [Thread-8] INFO   - Вызов команды show
+2025-05-06 20:42:27 [Thread-8] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}
+2025-05-06 20:42:27 [Thread-9] INFO   - Сообщение отправлено /127.0.0.1:56994
+2025-05-06 20:42:59 [main] INFO   - Получены данные от /127.0.0.1:56994
+2025-05-06 20:42:59 [Thread-10] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-10
+2025-05-06 20:42:59 [Thread-10] INFO   - Пришло сообщения от /127.0.0.1:56994 в потоке Thread-10:
+add{ login: admin; password: admin}
+2025-05-06 20:42:59 [Thread-10] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 20:42:59 [Thread-11] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-06 20:42:59 [Thread-11] INFO   - Вызов команды add
+2025-05-06 20:42:59 [Thread-11] INFO   - В коллекцию добавлен новый элемент
+2025-05-06 20:42:59 [Thread-11] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message: Группа успешно добавлена в коллекцию}
+2025-05-06 20:42:59 [Thread-12] INFO   - Сообщение отправлено /127.0.0.1:56994
+2025-05-06 20:43:01 [main] INFO   - Получены данные от /127.0.0.1:56994
+2025-05-06 20:43:01 [Thread-13] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-13
+2025-05-06 20:43:01 [Thread-13] INFO   - Пришло сообщения от /127.0.0.1:56994 в потоке Thread-13:
+show{ login: admin; password: admin}
+2025-05-06 20:43:01 [Thread-13] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 20:43:01 [Thread-14] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-06 20:43:01 [Thread-14] INFO   - Вызов команды show
+2025-05-06 20:43:01 [Thread-14] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "22", name: "234567", coordinates:Coordinates {x=75, y=123}, creationDate: "Tue May 06 20:42:59 MSK 2025", number of participants: "23", albums count: "423", genre: "POST_PUNK", label: "Label: sales 1234.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}
+2025-05-06 20:43:01 [Thread-15] INFO   - Сообщение отправлено /127.0.0.1:56994
+2025-05-06 20:43:21 [main] INFO   - Получены данные от /127.0.0.1:56994
+2025-05-06 20:43:21 [Thread-16] INFO   - Запуск задачи на чтение данных из канала в потоке: Thread-16
+2025-05-06 20:43:21 [Thread-16] INFO   - Пришло сообщения от /127.0.0.1:56994 в потоке Thread-16:
+show{ login: admin; password: admin}
+2025-05-06 20:43:21 [Thread-16] INFO   - Передаем задачу обработки запроса другому потоку
+2025-05-06 20:43:21 [Thread-17] INFO   - Пользователь отправил запрос с логином: admin; паролем admin
+2025-05-06 20:43:21 [Thread-17] INFO   - Вызов команды show
+2025-05-06 20:43:21 [Thread-17] INFO   - Сообщение обработано успешно: ServerResponse {type: SUCCESS, message:  MusicBands: MusicBand: {id: "10", name: "1", coordinates:Coordinates {x=1, y=1}, creationDate: "Mon May 05 14:24:50 MSK 2025", number of participants: "1", albums count: "1", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 1.0"}
+MusicBand: {id: "3", name: "test", coordinates:Coordinates {x=1, y=2}, creationDate: "Mon May 05 02:59:39 MSK 2025", number of participants: "3", albums count: "4", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 5.0"}
+MusicBand: {id: "12", name: "asd", coordinates:Coordinates {x=55, y=55}, creationDate: "Mon May 05 14:31:42 MSK 2025", number of participants: "55", albums count: "55", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 55.0"}
+MusicBand: {id: "1", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:57:26 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "15", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 15:19:57 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "17", name: "nirvana", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 17:39:07 MSK 2025", number of participants: "90", albums count: "90", genre: "JAZZ", label: "Label: sales 4.3"}
+MusicBand: {id: "4", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:13:48 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "5", name: "test", coordinates:Coordinates {x=123, y=89}, creationDate: "Mon May 05 14:14:47 MSK 2025", number of participants: "89", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 232.0"}
+MusicBand: {id: "6", name: "test4", coordinates:Coordinates {x=9, y=2}, creationDate: "Mon May 05 14:17:14 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "7", name: "test6", coordinates:Coordinates {x=19, y=2}, creationDate: "Mon May 05 14:18:23 MSK 2025", number of participants: "13", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 12.0"}
+MusicBand: {id: "8", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:26 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "9", name: "qweqwe", coordinates:Coordinates {x=4, y=123}, creationDate: "Mon May 05 14:20:33 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "11", name: "qwe", coordinates:Coordinates {x=143, y=43}, creationDate: "Mon May 05 14:31:13 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "13", name: "qwe", coordinates:Coordinates {x=-11, y=-11}, creationDate: "Mon May 05 14:33:24 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "14", name: "qwe", coordinates:Coordinates {x=-55, y=55}, creationDate: "Mon May 05 14:35:00 MSK 2025", number of participants: "123", albums count: "123", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "20", name: "787", coordinates:Coordinates {x=-100, y=-100}, creationDate: "Mon May 05 21:24:51 MSK 2025", number of participants: "1235", albums count: "200", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 3.45"}
+MusicBand: {id: "22", name: "234567", coordinates:Coordinates {x=75, y=123}, creationDate: "Tue May 06 20:42:59 MSK 2025", number of participants: "23", albums count: "423", genre: "POST_PUNK", label: "Label: sales 1234.0"}
+MusicBand: {id: "2", name: "The doors", coordinates:Coordinates {x=123, y=123}, creationDate: "Mon May 05 02:59:08 MSK 2025", number of participants: "322", albums count: "4223", genre: "BLUES", label: "Label: sales 123.0"}
+MusicBand: {id: "18", name: "234324", coordinates:Coordinates {x=-87, y=-153}, creationDate: "Mon May 05 17:40:36 MSK 2025", number of participants: "123", albums count: "12312", genre: "PSYCHEDELIC_ROCK", label: "Label: sales 123.0"}
+MusicBand: {id: "21", name: "sdgfggf", coordinates:Coordinates {x=123, y=123}, creationDate: "Tue May 06 14:41:50 MSK 2025", number of participants: "3342", albums count: "664435", genre: "JAZZ", label: "Label: sales 1233.0"}
+}
+2025-05-06 20:43:21 [Thread-18] INFO   - Сообщение отправлено /127.0.0.1:56994
